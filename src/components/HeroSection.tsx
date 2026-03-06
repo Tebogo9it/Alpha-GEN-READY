@@ -36,7 +36,7 @@ const HeroSection = () => {
   return (
     <section id="home" ref={sectionRef} className="relative min-h-screen flex items-center overflow-hidden">
       <div className="absolute inset-0">
-        <img src={heroImage} alt="Youth learning" className="hero-bg-img w-full h-full object-cover" />
+        <img src={typeof heroImage === 'string' ? heroImage : heroImage.src} alt="Youth learning" className="hero-bg-img w-full h-full object-cover" />
         <div className="absolute inset-0" style={{ background: "var(--hero-gradient)", opacity: 0.88 }} />
       </div>
 
