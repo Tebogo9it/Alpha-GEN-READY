@@ -20,7 +20,7 @@ const Navbar = () => {
     <nav className="fixed top-0 left-0 right-0 z-50 bg-card/80 backdrop-blur-xl border-b border-border">
       <div className="container flex items-center justify-between h-16 md:h-20">
         <a href="#home" className="flex items-center gap-2">
-          <img src={alphaLogo} alt="Alpha-Gen Ready" className="h-10 md:h-12 w-auto" />
+          <img src={typeof alphaLogo === 'string' ? alphaLogo : alphaLogo.src} alt="Alpha-Gen Ready" className="h-10 md:h-12 w-auto" />
           <span className="font-heading font-bold text-lg text-foreground hidden sm:inline">Alpha-Gen Ready</span>
         </a>
 

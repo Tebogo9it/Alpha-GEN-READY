@@ -69,7 +69,7 @@ const PartnersSection = () => {
             >
               <div className="w-24 h-24 mb-5 flex items-center justify-center">
                 <img
-                  src={p.logo}
+                  src={typeof p.logo === 'string' ? p.logo : p.logo.src}
                   alt={p.name}
                   className="max-w-full max-h-full object-contain"
                 />
