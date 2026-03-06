@@ -1,0 +1,3 @@
+module.exports=[52219,a=>{a.v("/_next/static/media/alpha-logo.cc3749de.png")},27945,a=>{a.v("/_next/static/media/hero-image.daddab8c.jpg")},29329,a=>{a.v("/_next/static/media/afro-planeteers.84dab3fa.png")},56521,a=>{a.v("/_next/static/media/hachac.f1ad80bb.png")},34200,a=>{a.v("/_next/static/media/hashtheory.0467e743.png")},63360,a=>{a.v("/_next/static/media/others.df6750f2.png")}];
+
+//# sourceMappingURL=src_assets_2fe87b16._.js.map
